@@ -193,3 +193,50 @@ nav .language a:hover {
     text-align: left;
     margin-bottom: 0.5em;
 }
+
+
+/* mobile */
+
+@media screen and (max-width: 992px) {
+    nav h1 {
+        font-size: 3em;
+    }
+    nav .contact {
+        padding: 1em 2em;
+    }
+    nav .language a {
+        font-size: 2em;
+    }
+    nav .back {
+        padding: 3em;
+    }
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-content {
+        width: 100%;
+        min-height: 35vh;
+    }
+    .hero-content img {
+        width: 600px;
+    }
+    .hero-content h1 {
+        font-size: 4em;
+    }
+    .hero-content h2 {
+        font-size: 3em;
+    }
+    .button-container {
+        flex-direction: column;
+    }
+    .button-container button {
+        font-size: 2em;
+        width: 400px;
+        margin: 0.3em;
+    }
+    .projects-content {
+        width: 90%;
+    }
+}
