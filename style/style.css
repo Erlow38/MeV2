@@ -80,8 +80,11 @@ nav .contact svg:hover {
     scale: 1.1;
 }
 nav .back {
+    display: flex;
+    align-items: center;
     padding: 1em 2em;
     transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 nav .back:hover {
     transform: translateX(-10px);
