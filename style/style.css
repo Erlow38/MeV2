@@ -18,6 +18,9 @@ body {
     background-size: cover;
     overflow-x: hidden;
 }
+p {
+    text-align: justify;
+}
 
 /*scrollbar*/
 
@@ -223,8 +226,8 @@ nav .logo img {
     font-weight: 500;
     margin-bottom: 1em;
 }
-.about-content a {
-    color: var(--color-secondary);
+.links {
+    color: var(--color-quaternary);
 }
 
 /* accordion */
