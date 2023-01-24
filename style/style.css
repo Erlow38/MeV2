@@ -73,10 +73,11 @@ nav h1 {
 nav .contact {
     padding: 1em;
 }
-nav .contact:hover {
-    border-radius: 10px;
-    transition: all 0.3s ease 0s;
-    transform: rotate(360deg) scale(1.1);
+nav .contact a {
+    margin: 0 0.3em;
+}
+nav .contact svg:hover {
+    scale: 1.1;
 }
 nav .back {
     padding: 1em 2em;
