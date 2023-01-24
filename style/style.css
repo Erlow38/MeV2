@@ -260,12 +260,13 @@ nav .logo img {
     content: "-";
 }
 .panel {
-    padding: 2em;
-    display: none;
-    overflow: hidden;
-    background-color: var(--color-tertiary);
+    padding: 0 2em;
     width: 65%;
     border-radius: 0 0 20px 20px;
+    background-color: var(--color-white);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
 }
 .image-container {
     display: flex;
