@@ -303,9 +303,11 @@ nav .logo img {
     font-size: 1.5em;
     float: right;
     margin-left: 5px;
+    transition: all 0.3s ease 0s;
 }
 .active:after {
     content: "-";
+    transform: rotate(180deg);
 }
 .panel {
     padding: 0 2em;
