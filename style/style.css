@@ -20,6 +20,7 @@ body {
 }
 p {
     text-align: justify;
+    font-size: 20px;
 }
 
 /*scrollbar*/
@@ -269,10 +270,10 @@ nav .logo img {
     padding: 0 2em;
     width: 65%;
     border-radius: 0 0 20px 20px;
-    background-color: var(--color-white);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
+    border: solid 1px var(--color-secondary);
 }
 .image-container {
     display: flex;
@@ -284,6 +285,9 @@ nav .logo img {
 .panel img {
     width: 45%;
     margin: 0.3em;
+}
+.panel p {
+    color: var(--color-white);
 }
 
 /* mobile */
@@ -344,6 +348,9 @@ nav .logo img {
     .panel {
         width: 72%;
         font-size: 2em;
+    }
+    .panel p {
+        font-size: 1em;
     }
     .panel img {
         width: 90%;
