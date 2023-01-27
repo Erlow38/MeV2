@@ -215,6 +215,7 @@ nav .logo img {
 .skills-content h2 {
     font-size: 2em;
     margin-bottom: 1em;
+    font-weight: 500;
     text-align: center;
 }
 .skills-content p {
@@ -243,6 +244,49 @@ nav .logo img {
     margin-bottom: 1em;
 }
 
+/* rewards */
+
+.rewards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 5em;
+}
+.rewards-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 1em;
+    margin-bottom: 1em;
+    color: var(--color-white);
+    border: solid 1px var(--color-secondary);
+    border-radius: 20px;
+}
+.rewards-content h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+.rewards-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rewards-element img {
+    width: 50%;
+    border-radius: 5px;
+}
+.rewards-element p {
+    width: 50%;
+    text-align: justify;
+    margin: 0 5em;
+}
+
 /* about */
 
 .about-container {
@@ -264,11 +308,6 @@ nav .logo img {
     border-radius: 20px;
     color: var(--color-white);
     padding: 2em;
-}
-.about-content h2 {
-    font-size: 2em;
-    font-weight: 500;
-    margin-bottom: 1em;
 }
 .about-content h3 {
     font-size: 1.5em;
@@ -803,6 +842,30 @@ nav .logo img {
         font-size: 2em;
         font-weight: 300;
         line-height: 40px;
+    }
+    .rewards-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rewards-content {
+        width: 90%;
+    }
+    .rewards-content h2 {
+        font-size: 3em;
+    }
+    .rewards-content p {
+        font-size: 2em;
+        font-weight: 300;
+        line-height: 40px;
+        width: 90%;
+        margin: 1em 0;
+    }
+    .rewards-content img {
+        width: 90%;
+    }
+    .rewards-element {
+        flex-direction: column;
     }
     .star {
         animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
