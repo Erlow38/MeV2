@@ -271,6 +271,7 @@ nav .logo img {
     font-size: 2em;
     font-weight: 500;
     margin-bottom: 1.5em;
+    margin-top: 0.5em;
 }
 .rewards-element {
     display: flex;
