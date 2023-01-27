@@ -5,7 +5,6 @@
     --color-white: #ffffff;
     --color-primary: #14213d;
     --color-secondary: #4579e7;
-    --color-tertiary: #e5e5e5;
     
     --star-color: var(--color-secondary);
     --star-tail-length: 6em;
@@ -35,12 +34,12 @@ body::-webkit-scrollbar {
     width: 12px; 
 }
 body::-webkit-scrollbar-track {
-    background: var(--color-tertiary); 
+    background: var(--color-white); 
 }
 body::-webkit-scrollbar-thumb {
     background-color: var(--color-secondary);
     border-radius: 20px; 
-    border: 3px solid var(--color-tertiary);
+    border: 3px solid var(--color-white);
 }
 
 /* transition */
