@@ -373,6 +373,10 @@ nav .logo img {
     width: 45%;
     margin: 0.3em;
 }
+.panel h3 {
+    font-size: 1.5em;
+    color: var(--color-white);
+}
 .panel p {
     color: var(--color-white);
 }
@@ -808,6 +812,9 @@ nav .logo img {
         font-size: 1em;
         font-weight: 300;
         line-height: 40px;
+    }
+    .panel h3 {
+        font-size: 1.1em;
     }
     .panel img {
         width: 90%;
