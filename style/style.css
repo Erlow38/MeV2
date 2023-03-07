@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
     left: -100%;
     bottom: 0;
     width: 100%;
-    background-color: var(--color-secondary);
+    background-color: #1f3463;
     z-index: 101;
     -webkit-transition: 0.5s;
     transition: 0.5s;
