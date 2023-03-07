@@ -244,7 +244,6 @@ nav .logo img {
 .projects-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 1em;
     margin-top: 5em;
@@ -345,6 +344,7 @@ nav .logo img {
     cursor: pointer;
     padding: 18px;
     width: 70%;
+    height: 120px;
     text-align: left;
     border: none;
     outline: none;
@@ -818,6 +818,7 @@ nav .logo img {
     .accordion {
         font-size: 2.9em;
         width: 90%;
+        height: 200px;
     }
     .panel {
         width: 72%;
